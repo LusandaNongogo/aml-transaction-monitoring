@@ -92,7 +92,7 @@ Each mule found this way should be fed back into rule design, for example a lowe
 - **Simulated data.** No labelled laundering data is public. Customers, transactions and three typologies were simulated with known labels, so precision and recall are exact. The flip side is that the planted cases are cleaner than real ones.
 - **Three typologies only.** Trade based laundering, cross border flows, cash intensive business fronts and crypto off ramps are not covered.
 - **Customer level.** Alerts are de-duplicated per customer. A production system would also link related accounts and counterparties.
-- **Threshold.** The R49 999.99 cash threshold reflects the FIC Act cash threshold reporting level as I understand it; it should be confirmed against current FIC guidance.
+- **Threshold.** R49 999.99 is the section 28 cash threshold reporting level set by regulation 22B, in force since 14 November 2022 (it was R24 999.99 before). The same amendment means the aggregation provisions previously in regulation 24 no longer apply, so a run of deposits each just under the threshold is not caught by threshold reporting. Picking it up is a monitoring job, which is the gap the structuring rule covers.
 
 ## 7. Next Steps
 

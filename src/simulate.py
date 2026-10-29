@@ -28,8 +28,8 @@ All amounts are in rand.
 import numpy as np
 import pandas as pd
 
-# FIC Act cash threshold report level. Check the current FIC guidance
-# before relying on this number.
+# Cash threshold reporting level under section 28 of the FIC Act, set by
+# regulation 22B at R49 999.99 from 14 November 2022 (previously R24 999.99).
 CASH_THRESHOLD = 49_999.99
 
 DAYS = 120
