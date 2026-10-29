@@ -60,4 +60,4 @@ py -m pytest
 py -m jupyter notebook notebooks/aml_monitoring.ipynb
 ```
 
-The cash threshold in `src/simulate.py` is set to R49 999.99. Check it against current FIC guidance before reusing the rules.
+The cash threshold is R49 999.99, the section 28 FIC Act reporting level set by regulation 22B since 14 November 2022.
