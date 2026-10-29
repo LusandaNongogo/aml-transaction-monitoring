@@ -1,5 +1,7 @@
 # AML Transaction Monitoring
 
+[![Tests](https://github.com/LusandaNongogo/aml-transaction-monitoring/actions/workflows/tests.yml/badge.svg)](https://github.com/LusandaNongogo/aml-transaction-monitoring/actions/workflows/tests.yml)
+
 Transaction monitoring rules for structuring, money mules and dormant account abuse, with an alert triage model, a second line anomaly review and a tuning memo written for a compliance committee. Built around South African retail banking, including the customers that make monitoring hard: stokvels and cash heavy small businesses.
 
 ## Results
